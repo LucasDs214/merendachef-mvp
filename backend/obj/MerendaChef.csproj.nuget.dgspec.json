@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pichau\\Downloads\\MerendaChefFinal\\merendachef\\backend\\MerendaChef.csproj": {}
+    "C:\\Users\\lucas.santos\\Desktop\\MVP\\merendachef-mvp\\backend\\MerendaChef.csproj": {}
   },
   "projects": {
-    "D:\\Pichau\\Downloads\\MerendaChefFinal\\merendachef\\backend\\MerendaChef.csproj": {
+    "C:\\Users\\lucas.santos\\Desktop\\MVP\\merendachef-mvp\\backend\\MerendaChef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pichau\\Downloads\\MerendaChefFinal\\merendachef\\backend\\MerendaChef.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.santos\\Desktop\\MVP\\merendachef-mvp\\backend\\MerendaChef.csproj",
         "projectName": "MerendaChef",
-        "projectPath": "D:\\Pichau\\Downloads\\MerendaChefFinal\\merendachef\\backend\\MerendaChef.csproj",
-        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "D:\\Pichau\\Downloads\\MerendaChefFinal\\merendachef\\backend\\obj\\",
+        "projectPath": "C:\\Users\\lucas.santos\\Desktop\\MVP\\merendachef-mvp\\backend\\MerendaChef.csproj",
+        "packagesPath": "C:\\Users\\lucas.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.santos\\Desktop\\MVP\\merendachef-mvp\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,24 +74,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.24, 8.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -100,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
