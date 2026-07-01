@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MerendaChef")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6a314c2850794d9f887912cd1feaa7b0820198e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MerendaChef")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MerendaChef")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
