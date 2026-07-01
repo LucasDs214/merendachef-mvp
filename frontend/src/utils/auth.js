@@ -3,7 +3,7 @@
 // admin logado no sessionStorage após o backend validar a senha.
 
 const SESSION_KEY = 'merendachef_admin_session'
-const API_URL = 'http://localhost:5000/api'
+const API_URL = 'http://https://merendachef-mvp.onrender.com/api'
 
 export async function autenticar(email, senha) {
   const res = await fetch(`${API_URL}/auth/login`, {

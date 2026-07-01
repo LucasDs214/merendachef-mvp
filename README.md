@@ -37,7 +37,7 @@ Como não há migrations configuradas neste MVP (as tabelas já são criadas pel
 dotnet run
 ```
 
-A API sobe por padrão em `http://localhost:5000` (Minimal API, sem HTTPS
+A API sobe por padrão em `https://merendachef-mvp.onrender.com` (Minimal API, sem HTTPS
 redirect para simplificar o MVP local).
 
 Endpoints:

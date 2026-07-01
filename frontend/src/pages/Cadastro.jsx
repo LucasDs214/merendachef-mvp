@@ -4,7 +4,7 @@ import StepIdentificacao from '../components/StepIdentificacao'
 import StepIngredientes from '../components/StepIngredientes'
 import StepPreparo from '../components/StepPreparo'
 
-const API_URL = 'http://localhost:5000/api/receitas'
+const API_URL = 'http://https://merendachef-mvp.onrender.com/api/receitas'
 
 const ESTADO_INICIAL = {
   nomeFuncionario: '',

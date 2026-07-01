@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const API_URL = 'http://localhost:5000/api/admins'
+const API_URL = 'http://https://merendachef-mvp.onrender.com/api/admins'
 
 export default function GerenciarAdmins({ onClose }) {
   const [admins, setAdmins] = useState([])
