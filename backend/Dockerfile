@@ -2,11 +2,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copia os arquivos do projeto e restaura dependências
+# MUDANÇA AQUI: Como o Dockerfile está dentro de /backend, 
+# o .csproj também está lá, então referenciamos apenas pelo nome
 COPY ["MerendaChef.csproj", "./"]
 RUN dotnet restore
 
-# Copia todo o resto e publica
+# Copia todo o resto da pasta atual (backend)
 COPY . .
 RUN dotnet publish -c Release -o /app/publish
 
@@ -15,7 +16,6 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Define a porta que o Render vai usar
 ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 
