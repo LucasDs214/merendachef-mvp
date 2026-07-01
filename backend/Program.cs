@@ -14,17 +14,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // =========================================================
-// CORS - libera o frontend (Vite roda por padrão na 5173)
+// CORS - libera o frontend (Vercel e Localhost)
 // =========================================================
-const string CorsPolicy = "MerendaChefFrontend";
+const string CorsPolicy = "PermitirTudo";
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(CorsPolicy, policy =>
     {
-        policy.WithOrigins(
-                "http://localhost:5173",
-                "http://127.0.0.1:5173"
-              )
+        policy.AllowAnyOrigin() // Agora permite requisições de qualquer URL, incluindo a Vercel
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -34,6 +31,7 @@ builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
 
+// Aplica a política de CORS que configuramos acima
 app.UseCors(CorsPolicy);
 
 // =========================================================
