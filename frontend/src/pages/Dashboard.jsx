@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { estaAutenticado, sair } from '../utils/auth'
 import GerenciarAdmins from '../components/GerenciarAdmins'
 
-const API_URL = 'http://https://merendachef-mvp.onrender.com/api/receitas'
+const API_URL = 'https://merendachef-mvp.onrender.com/api/receitas'
 
 export default function Dashboard() {
   const navigate = useNavigate()
